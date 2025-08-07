@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz wiedzy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz wiedzy</h1>
+            <div class="score">Wynik: <span id="current-score">0</span>/<span id="total-questions">0</span></div>
+        </header>
+        
+        <main>
+            <div id="quiz-container">
+                <div id="question-container" class="hide">
+                    <h2 id="question"></h2>
+                    <div id="answer-buttons" class="btn-grid"></div>
+                </div>
+                
+                <div id="start-screen">
+                    <button id="start-btn" class="btn">Rozpocznij quiz</button>
+                </div>
+                
+                <div id="result-container" class="hide">
+                    <h2>Twój wynik: <span id="final-score">0</span>%</h2>
+                    <div id="answer-details"></div>
+                    <button id="restart-btn" class="btn">Zagraj jeszcze raz</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

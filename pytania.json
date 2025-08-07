@@ -1,0 +1,32 @@
+[
+    {
+        "pytanie": "Jakie jest stolica Polski?",
+        "opcje": {
+            "A": "Kraków",
+            "B": "Warszawa",
+            "C": "Gdańsk",
+            "D": "Wrocław"
+        },
+        "poprawna_odpowiedz": "B"
+    },
+    {
+        "pytanie": "Która planeta jest największa w Układzie Słonecznym?",
+        "opcje": {
+            "A": "Ziemia",
+            "B": "Mars",
+            "C": "Jowisz",
+            "D": "Saturn"
+        },
+        "poprawna_odpowiedz": "C"
+    },
+    {
+        "pytanie": "Kto namalował 'Mona Lisę'?",
+        "opcje": {
+            "A": "Vincent van Gogh",
+            "B": "Pablo Picasso",
+            "C": "Leonardo da Vinci",
+            "D": "Michelangelo"
+        },
+        "poprawna_odpowiedz": "C"
+    }
+]
